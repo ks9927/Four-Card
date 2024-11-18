@@ -50,6 +50,7 @@ header .second-line {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "sup team calcu"
                         "sup karma calcu";
+  gap: 1rem;
 }
 
 .supervisor {
