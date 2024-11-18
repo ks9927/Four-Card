@@ -56,22 +56,22 @@ header .second-line {
 
 .supervisor {
   grid-area: sup;
-  border-top: solid 2px var(--cyan-clr);
+  border-top: solid 5px var(--cyan-clr);
 }
 
 .team {
   grid-area: team;
-  border-top: solid 2px var(--red-clr);
+  border-top: solid 5px var(--red-clr);
 }
 
 .karma {
   grid-area: karma;
-  border-top: solid 2px var(--orange-clr);
+  border-top: solid 5px var(--orange-clr);
 }
 
 .calculator {
   grid-area: calcu;
-  border-top: solid 2px var(--blue-clr);
+  border-top: solid 5px var(--blue-clr);
 }
 
 .card {
@@ -80,8 +80,25 @@ header .second-line {
   width: 22rem;
   margin: auto;
 }
+
+.card h3 {
+  color: var(--very-dark-blue);
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card p {
+  color: var(--very-dark-blue);
+  font-weight: var(--small-weight);
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-size: var(--body-font-size);
+}
 .card img {
   float: right;
+  position: relative;
+  right: 1.5rem;
+  top: 2.5rem;
 }
 
 
