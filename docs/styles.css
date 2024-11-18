@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
+:root {
+  /*Colors */
+  --red-clr: hsl(0, 78%, 62%);
+  --cyan-clr:  hsl(180, 62%, 55%);
+  --orange-clr: hsl(34, 97%, 64%);
+  --blue-clr: hsl(212, 86%, 64%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+
+  /*Fonts*/
+  --body-font-size: 0.938rem; /*15px*/
+  --font-fam: "Poppins", sans-serif;
+  --small-weight: 200;
+  --med-weight: 400;
+  --large-weight: 600;
+}
 
 
 
