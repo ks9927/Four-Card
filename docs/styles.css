@@ -55,20 +55,27 @@ header .second-line {
 
 .supervisor {
   grid-area: sup;
+  border-top: solid 2px var(--cyan-clr);
 }
 
 .team {
   grid-area: team;
+  border-top: solid 2px var(--red-clr);
 }
 
 .karma {
   grid-area: karma;
+  border-top: solid 2px var(--orange-clr);
 }
 
 .calculator {
   grid-area: calcu;
+  border-top: solid 2px var(--blue-clr);
 }
 
+.card img {
+  float: right;
+}
 
 
 
