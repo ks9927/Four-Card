@@ -22,6 +22,28 @@
   --large-weight: 600;
 }
 
+body {
+  height: 100vh;
+  font-family: var(--font-fam);
+  background-color: var(--very-light-gray);
+}
+
+header {
+  text-align: center;
+  color: var(--very-dark-blue);
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+header .first-line, header.p {
+  font-weight: var(--small-weight);
+}
+
+header .second-line {
+  font-weight: var(--large-weight);
+  margin-bottom: 1rem;
+}
 
 
 
