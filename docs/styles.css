@@ -50,7 +50,8 @@ header .second-line {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "sup team calcu"
                         "sup karma calcu";
-  gap: 1rem;
+  
+  row-gap: 2rem;
 }
 
 .supervisor {
@@ -73,6 +74,12 @@ header .second-line {
   border-top: solid 2px var(--blue-clr);
 }
 
+.card {
+  box-shadow: 5px 5px 10px var(--grayish-blue);
+  height: 15rem;
+  width: 22rem;
+  margin: auto;
+}
 .card img {
   float: right;
 }
