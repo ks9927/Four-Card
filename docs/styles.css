@@ -51,7 +51,7 @@ header .second-line {
   grid-template-areas: "sup team calcu"
                         "sup karma calcu";
   
-  row-gap: 2rem;
+  gap: 1rem;
 }
 
 .supervisor {
@@ -79,6 +79,7 @@ header .second-line {
   height: 15rem;
   width: 22rem;
   margin: auto;
+  border-radius: 15px;
 }
 
 .card h3 {
